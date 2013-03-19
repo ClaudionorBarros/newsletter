@@ -39,7 +39,7 @@ $cfg = array(
   //*/
   
   # miscellaneous
-  'language'            => 'it', # set to 'it' for italian language
+  'language'            => 'en', # set to 'it' for italian language
   'regex'               => '^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$^',
   'limit'               => 300, # emails to send before refreshing the send.php page
   'word_wrap'           => 50,
