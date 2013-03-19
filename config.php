@@ -1,8 +1,8 @@
 <?php
 $cfg = array(
   # site settings
-  'site_name'           => 'Your Website Name',
-  'address'             => 'Your geographic address',
+  'site_name'           => 'My Website',
+  'address'             => 'My geographic address, 45/bis',
   
   # paths
   'site_url'            => 'www.example.com',
@@ -39,9 +39,9 @@ $cfg = array(
   //*/
   
   # miscellaneous
-  'language'            => 'it',  
+  'language'            => 'it', # set to 'it' for italian language
   'regex'               => '^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$^',
-  'limit'               => 300, # limit of emails to send before refreshing the send.php page
+  'limit'               => 300, # emails to send before refreshing the send.php page
   'word_wrap'           => 50,
   'timeout'             => 10000, # refresh timeout, in milliseconds.
   'debug_mode'          => 0, # enables SMTP debug information (2 for testing)
